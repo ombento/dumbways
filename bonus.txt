@@ -1,0 +1,3 @@
+e. yang pasti akan memperbaiki bug tersebut, sembari proses memperbaiki bug menambah AI cronjob 
+   untuk pengecekan waktu kapan saja mesin tidak bekerja
+   dari hasil itu bisa di manual / bisa mendapat bugnya untuk d perbaiki

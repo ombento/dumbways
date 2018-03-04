@@ -1,0 +1,7 @@
+SELECT
+	c.username,
+	c.title,
+	d.COMMENT 
+FROM
+	( SELECT * FROM users a LEFT JOIN posts b ON a.id_users = b.createdBy ) c
+	LEFT JOIN comments d ON c.id_posts = d.postId

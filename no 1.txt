@@ -1,0 +1,8 @@
+cetakbro('Beni','0881212112','Main,kerja,motret', 'Jl.sana sini aja');
+ 
+function cetakbro(nama,tlp,hobi,alamat){
+        
+         alert(nama+','+tlp+','+hobi+','+alamat);
+	return cetakbro;
+        
+    }

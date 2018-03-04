@@ -33,9 +33,23 @@
     }); 
         
     function cetakbro(nama,tlp,hobi,alamat){
-        
-         alert(nama+','+tlp+','+hobi+','+alamat);
-	return cetakbro;
+
+	for (var i = 0; i < 1; i++) {
+            var rank = 1;
+          // console.log(data[0][0]);
+           // console.log(data);
+            var string ='';
+            string += "<tr>\\n\
+                                            <td>" + rank + "</td>\
+                                            <td>" + nama + "</td>\
+                                            <td>" + tlp + "</td>\
+                                            <td>" + hobi + "</td>\
+                                            <td>" + alamat + "</td>\
+                                        </tr>";
+                                            }
+//       
+   
+     $('#body').html(string);
         
     }
     </script>
